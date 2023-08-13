@@ -37,7 +37,7 @@ import jakarta.servlet.http.HttpSession;
 public class UserController {
 	
 	@Autowired
-	private BCryptPasswordEncoder bCryptPasswordEncoder;
+	private PasswordEncoder bCryptPasswordEncoder;
 	
 	@Autowired
 	private UserRepository userRepository;
